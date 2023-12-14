@@ -1604,6 +1604,9 @@ line-height: 120%;
         border: 6px solid transparent;
         border-top: 6px solid #fff;
     }
+    .slider-categories .slick-arrow {
+        top: 84px;
+    }
 }
 
 /* Small Devices, Tablets */
