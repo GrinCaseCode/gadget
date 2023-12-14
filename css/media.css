@@ -1591,6 +1591,19 @@ line-height: 120%;
         padding-top: 5px;
         padding-bottom: 80px;
     }
+    .hint-main {
+        bottom: 100%;
+        left: 0;
+        top: auto;
+        margin-bottom: 9px;
+    }
+    .hint-main::before {
+        top: 100%;
+        bottom: auto;
+        left: 15px;
+        border: 6px solid transparent;
+        border-top: 6px solid #fff;
+    }
 }
 
 /* Small Devices, Tablets */

@@ -349,6 +349,7 @@ background: #FFF;
 	position: absolute;
 	visibility: hidden;
 	text-align: left;
+	z-index: 10;
 }
 .hint-main::before {
 	position: absolute;
