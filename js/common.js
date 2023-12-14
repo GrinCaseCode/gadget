@@ -104,6 +104,11 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 						$(this).toggleClass("active");
 						$(this).next(".item-dropdown__content").slideToggle(200);
 					}); 
+
+					$(".item-sorting").click(function() {
+						$(".sorting-catalog").slideUp(200);
+						$(".btn-filter_sorting").removeClass("active");
+					}); 
 		
 				}
 			}

@@ -1388,6 +1388,7 @@ line-height: 120%;
         border: 1px solid #D9D9D9;
         background: #FFF;
         border-radius: 3px;
+        z-index: 10;
         position: absolute;
     }
     .item-sorting {
@@ -1401,6 +1402,9 @@ line-height: 120%;
     }
     .sorting-catalog ul li {
         margin: 0;
+    }
+    .item-sorting i {
+        display: none;
     }
     .slider-nav__item {
         height: 105px;
