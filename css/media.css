@@ -1587,6 +1587,10 @@ line-height: 120%;
     .card-info .list-card li:first-child {
         margin-top: 0;
     }
+    .footer {
+        padding-top: 5px;
+        padding-bottom: 80px;
+    }
 }
 
 /* Small Devices, Tablets */
