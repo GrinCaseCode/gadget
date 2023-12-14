@@ -122,8 +122,19 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 			{
 				breakpoint: 992,
 				settings: {
-					variableWidth: true,
-					slidesToShow: 1,
+					slidesToShow: 5,
+				}
+			},
+			{
+				breakpoint: 768,
+				settings: {
+					slidesToShow: 4,
+				}
+			},
+			{
+				breakpoint: 480,
+				settings: {
+					slidesToShow: 3,
 				}
 			}
 			]

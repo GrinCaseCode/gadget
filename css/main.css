@@ -1922,3 +1922,6 @@ background: #D9D9D9;
 .card-info .list-card {
 	padding-bottom: 20px;
 }  
+.slider-categories:not(.slick-initialized) > li:not(:first-child) {
+	display: none;
+  }
