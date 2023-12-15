@@ -23,7 +23,7 @@
 	<link rel="stylesheet" href="css/main.css?ver=1.4" />
 	<link rel="stylesheet" href="css/media.css?ver=1.4" />
 </head>
-
+ 
 <body>
 
 	<div class="wrapper">
@@ -226,109 +226,190 @@
 			</div>
 		</header>
 
-		<section class="page-payment">
+		<section class="page-order">
 			<div class="container">
 				<ul class="breadcrumbs">
 					<li><a href="#">Главная</a></li>
-					<li>Оплата</li>
+					<li><a href="#">Корзина</a></li>
+					<li>Оформление заказа</li>
 				</ul>
+				<h1 class="title-section">Оформление заказа</h1>
 				<div class="row">
-					<div class="col-lg-5">
-						<h1 class="title-section">Оплата</h1>
-						<ul class="list-page">
-							<li><div class="icon-main"><img src="img/ic_pay1.svg" alt="alt"></div>Наличными курьеру или в пункте выдачи при получении заказа</li>
-							<li><div class="icon-main"><img src="img/ic_pay2.svg" alt="alt"></div>Банковской картой Visa, Mastercard или МИР, после оформления заказа</li>
-						</ul>
-					</div>
-					<div class="col-lg-7">
-						<div class="image-page">
-							<img src="img/payment1.jpg" alt="alt">
-						</div>
-					</div>
-				</div>
-				<div class="info-page">
-					<div class="row">
-						<div class="col-lg-2">
-							<div class="image-page">
-								<img src="img/uniteller.png" alt="alt">
+					<div class="col-lg-8">
+						<div class="item-order">
+							<div class="item-order__head">Товары в заказе </div>
+							<div class="item-order__content">
+								<div class="table-basket">
+									<table>
+										<tbody>
+											<tr>
+												<td>
+													<a href="#" class="image-basket">
+														<img src="img/basket1.jpg" alt="alt">
+													</a>
+												</td>
+												<td>
+													<a href="#" class="title-basket">Смартфон Apple iPhone 15 Pro</a>
+													<div class="descr-basket">256GB белый титан</div>
+												</td>
+												<td>
+													<div class="quantity-basket">1 шт</div>
+												</td>
+												<td>
+													<div class="price-basket">101 990 ₽</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</div>
 							</div>
 						</div>
-						<div class="col-lg-10">
-							<div class="title-small">Уважаемый клиент!</div>
-							<p>Вы можете оплатить свой заказ онлайн с помощью банковской карты через платежный сервис компании Uniteller. После подтверждения заказа Вы будете перенаправлены на защищенную платежную страницу Uniteller, где необходимо будет ввести данные для оплаты заказа. После успешной оплаты на указанную в форме оплаты электронную почту будет направлен электронный чек с информацией о заказе и данными по произведенной оплате.</p>
-							<div class="title-small">Гарантии безопасности</div>
-							<p>Безопасность процессинга Uniteller подтверждена сертификатом стандарта безопасности данных индустрии платежных карт PCI DSS. Надежность сервиса обеспечивается интеллектуальной системой мониторинга мошеннических операций, а также применением 3D Secure - современной технологией безопасности интернет-платежей.</p>
-							<p>Данные Вашей карты вводятся на специальной защищенной платежной странице. Передача информации в процессинговую компанию Uniteller происходит с применением технологии шифрования TLS. Дальнейшая передача информации осуществляется по закрытым банковским каналам, имеющим наивысший уровень надежности.</p>
-							<p>Uniteller не передает данные Вашей карты магазину и иным третьим лицам! Если Ваша карта поддерживает технологию 3D Secure, для осуществления платежа, Вам необходимо будет пройти дополнительную проверку пользователя в банке-эмитенте (банк, который выпустил Вашу карту). Для этого Вы будете направлены на страницу банка, выдавшего карту. Вид проверки зависит от банка. Как правило, это дополнительный пароль, который отправляется в SMS, карта переменных кодов, либо другие способы.</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="consultation">
-			<div class="container">
-				<h2 class="title-section">Остались вопросы?</h2>
-				<div class="descr-section">Задайте их нашим консультантам через онлайн чат, напишите обращениев
-					мессенджер или просто позвоните</div>
-				<div class="consultation-block">
-					<div class="row">
-						<div class="col-lg-3 col-6">
-							<div class="consultation-block__image">
-								<img src="img/consult1.png" alt="alt">
-							</div>
-						</div>
-						<div class="col-lg-2 col-6">
-							<div class="logo">
-								<img src="img/logo.svg" alt="alt">
-							</div>
-							<div class="title-small">Александр</div>
-							<p>эксперт по подбору <br>гаджетов в «GC»</p>
-							<ul class="list-social hidden-desktop">
-								<li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-								<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
-							</ul>
-						</div>
-						<div class="col-lg-3 col-6">
-							<div class="consultation-block__item">
-								<div class="title-small">Магазины и точки выдачи:</div>
-								<p>Севастополь, <br>просп. Октябрьской революции, 43-Д</p>
-								<div class="title-small">Телефон:</div>
-								<p><a href="tel:+79787628888"><strong>+7 (978) 762-88-88</strong></a></p>
-								<ul class="list-social hidden-mob">
-									<li><a href="#" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
-									<li><a href="#" target="_blank"><i class="fab fa-telegram-plane"></i></a></li>
-									<li><a href="#" target="_blank"><i class="fab fa-vk"></i></a></li>
-								</ul>
-							</div>
-						</div>
-						<div class="col-lg-2 col-6">
-							<div class="consultation-block__item">
-								<div class="title-small">Режим работы:</div>
-								<p>Вт-Вс с 09:00 до 18:00 <br>Пн - выходной</p>
-								<div class="title-small">E-mail:</div>
-								<p><a href="mailto:gajet-krym@yandex.ru">gajet-krym@yandex.ru</a></p>
-							</div>
-						</div>
-						<div class="col-lg-2 col-12">
-							<div class="consultation-block__item">
-								<div class="row align-items-end">
-									<div class="col-md-12 col-6">
-										<div class="title-small">Реквизиты:</div>
-										<p>ИП Агаев Артур Анатольевич</p>
-										<p>ОГРНИП: 315910200144730</p>
-										<p>ИНН: 910902641003</p>
-									</div>
-									<div class="col-md-12 col-6">
-										<ul class="list-payments">
-											<li><img src="img/payment1.png" alt="alt"></li>
-											<li><img src="img/payment2.png" alt="alt"></li>
-											<li><img src="img/payment3.png" alt="alt"></li>
-											<li><img src="img/payment4.png" alt="alt"></li>
-										</ul>
+						<div class="item-order">
+							<div class="item-order__head">Регион доставки <a href="#" class="btn-edit"></a></div>
+							<div class="item-order__content">
+								<div class="item-order__wrap">
+									<div class="item-order__text">
+										<p><strong>Местоположение:</strong>  г. Севастополь</p>
+										<p><strong>Тип плательщика:</strong>  физ лицо</p>
 									</div>
 								</div>
+							</div>
+						</div>
+						<div class="item-order">
+							<div class="item-order__head">Доставка <a href="#" class="btn-edit"></a></div>
+							<div class="item-order__content">
+								<div class="order-checks">
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_delivery"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_delivery1.svg" alt="alt">
+												</div>
+												<span>Доставка курьером  по Севастополю, по Симферополю</span>
+											</span>
+										</label>
+									</div>
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_delivery"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_delivery2.svg" alt="alt">
+												</div>
+												<span>Самовывоз из магазина в Севастополе, в Симферополе</span>
+											</span>
+										</label>
+									</div>
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_delivery"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_delivery3.svg" alt="alt">
+												</div>
+												<span>Доставка транспортной компанией по РФ</span>
+											</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-order">
+							<div class="item-order__head">Оплата <a href="#" class="btn-edit"></a></div>
+							<div class="item-order__content">
+								<div class="order-checks">
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_payment"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_payment1.svg" alt="alt">
+												</div>
+												<span>Наличными</span>
+											</span>
+										</label>
+									</div>
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_payment"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_payment2.svg" alt="alt">
+												</div>
+												<span>Картой в магазине</span>
+											</span>
+										</label>
+									</div>
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_payment"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_payment3.svg" alt="alt">
+												</div>
+												<span>Наличными курьеру</span>
+											</span>
+										</label>
+									</div>
+									<div class="check-order">
+										<label>
+											<input type="radio" name="radio_payment"/>
+											<span>
+												<div class="check-order__icon">
+													<img src="img/check_payment4.svg" alt="alt">
+												</div>
+												<span>Терминалы</span>
+											</span>
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item-order">
+							<div class="item-order__head">Покупатель <a href="#" class="btn-edit"></a></div>
+							<div class="item-order__content">
+								<div class="item-order__wrap">
+									<div class="row">
+										<div class="col-lg-9">
+											<form>
+												<div class="item-input">
+													<div class="item-input__title">Ваше имя*</div>
+													<input type="text" required="required">
+												</div>
+												<div class="item-input">
+													<div class="item-input__title">Контактный телефон*</div>
+													<input type="text" required="required" class="input-phone">
+												</div>
+												<div class="item-input">
+													<div class="item-input__title">E-mail</div>
+													<input type="email">
+												</div>
+												<div class="item-input">
+													<div class="item-input__title">Адрес доставки*</div>
+													<input type="text" required="required">
+												</div>
+												<input type="submit" value="Оформить заказ" class="btn-main">
+											</form>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="info-basket">
+							<div class="line-basket">
+								<div>Товаров на:</div>
+								<div>101 990 ₽</div>
+							</div>
+							<div class="line-basket">
+								<div>Доставка:</div>
+								<div>бесплатно</div>
+							</div>
+							<div class="line-basket line-basket_total">
+								<div>Итого</div>
+								<div>101 990 ₽</div>
 							</div>
 						</div>
 					</div>
