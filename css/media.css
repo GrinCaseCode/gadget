@@ -502,6 +502,83 @@
     .card-main {
         min-height: 98%;
     }
+    .list-page {
+        font-size: 21px;
+    }
+    .icon-main {
+        width: 40px;
+        height: 40px;
+        padding: 5px;
+    }
+    .list-page li {
+        padding-left: 57px;
+        margin-bottom: 24px;
+    }
+    .page-payment .title-section {
+        padding-bottom: 48px;
+    }
+    .info-page {
+        padding: 25px 25px;
+        margin-top: 30px;
+    }
+    .page-contacts .title-section {
+        padding-bottom: 15px;
+    }
+    .page-contacts .title-card {
+        margin-bottom: 12px;
+    }
+    #map {
+        height: 415px;
+        margin-top: 33px;
+    }
+    .image-basket {
+        width: 89px;
+        height: 87px;
+    }
+    .table-basket td:nth-child(1) {
+        width: 108px;
+    }
+    .table-basket td {
+        padding: 16px 0;
+    }
+    .table-basket td:nth-child(2) {
+        font-size: 14px;
+    }
+    .price-basket {
+        font-size: 14px;
+        text-align: center;
+    }
+    .table-basket .quantity {
+        margin: 0 auto;
+    }
+    .btn-remove {
+        font-size: 19px;
+        margin-right: 6px;
+    }
+    .info-basket {
+        padding: 15px 20px;
+        padding-bottom: 30px;
+        font-size: 14px;
+    }
+    .info-basket__title {
+        font-size: 18px;
+    }
+    .line-basket_total {
+        font-size: 18px;
+        padding: 17px 0;
+    }
+    .info-basket__buttons .btn-main {
+        margin: 0 4px;
+    }
+    .info-basket__buttons {
+        margin: 0 -4px;
+    }
+    .info-basket .btn-main {
+        height: 45px;
+    }
+    .page-basket {
+        padding-bottom: 0;
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -787,6 +864,20 @@
     }
     .card-info .list-card li {
         margin-top: 17px;
+    }
+    .list-page {
+        font-size: 18px;
+    }
+    .page-payment .title-section {
+        padding-bottom: 30px;
+    }
+    .info-basket .btn-main {
+        font-size: 14px;
+        letter-spacing: normal;
+    }
+    .info-basket__title,
+    .line-basket_total {
+        font-size: 17px;
     }
 }
 
@@ -1610,6 +1701,66 @@ line-height: 120%;
     }
     .slider-categories .slick-arrow {
         top: 84px;
+    }
+    .list-page {
+        font-size: 16px;
+    }
+    .list-page li {
+        padding-left: 50px;
+        margin-bottom: 20px;
+    }
+    .info-page {
+        padding: 20px 15px;
+        margin-top: 25px;
+    }
+    .info-page .image-page {
+        margin-bottom: 10px;
+    }
+    .info-page .title-small {
+        font-size: 16px;
+        margin-bottom: 13px;
+    }
+    .page-contacts .title-small {
+        font-size: 15px;
+    }
+    .page-contacts .image-page {
+        margin-top: 20px;
+    }
+    #map {
+        height: 390px;
+        margin-top: 30px;
+    }
+    .table-basket table,
+    .table-basket tbody,
+    .table-basket tr,
+    .table-basket td {
+        display: block;
+    }
+    .table-basket td {
+        flex: 1;
+        border: none !important;
+    }
+    .table-basket tr {
+        border-top: 1px solid #D9DBE9;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .table-basket tr:last-child {
+        border-bottom: 1px solid #D9DBE9;
+    }
+    .table-basket td:nth-child(2) {
+       width: calc(100% - 110px);
+       flex: initial;
+    }
+    .btn-remove {
+        float: right;
+    }
+    .price-basket {
+        text-align: left;
+    }
+    .info-basket {
+        margin-top: 20px;
     }
 }
 
