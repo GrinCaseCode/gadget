@@ -2407,3 +2407,61 @@ background: #FFF;
   .fancybox-overlay {
 	background: rgba(57, 60, 72, 0.20);
   }
+.page-recap {
+	padding: 35px 0;
+}
+.block-recap {
+	padding: 48px;
+	min-height: 684px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.block-recap_error {
+	background-image: url(../img/bg_error.jpg);
+	color: #fff;
+}
+.block-recap__value {
+	font-size: 200px;
+	margin-bottom: -20px;
+	font-weight: 800;
+	line-height: 120%;
+	letter-spacing: 6px;
+	text-transform: uppercase;
+	background: linear-gradient(93deg, #FFF -3.71%, #F4793F 36.04%, #FFF 53.5%, #F4793F 61.83%, #FFF 106.13%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.block-recap__title {
+	font-size: 30px;
+	margin-bottom: 55px;
+font-weight: 500;
+line-height: 130%;
+text-transform: uppercase;
+}
+.block-recap__descr {
+	font-size: 20px;
+line-height: 130%;
+font-weight: 500;
+max-width: 433px;
+margin: 0 auto;
+margin-bottom: 105px;
+}
+.block-recap .btn-main {
+	height: 50px;
+	padding: 0 41px;
+}
+.block-recap_thanks {
+	background-image: url(../img/bg_thanks.jpg);
+}
+.block-recap__name {
+	font-size: 50px; 
+	margin-top: 90px;
+	margin-bottom: 30px;
+	font-weight: 800;
+	line-height: 120%;
+	letter-spacing: 1.5px;
+	text-transform: uppercase;
+}
