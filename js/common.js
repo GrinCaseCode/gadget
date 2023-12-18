@@ -80,6 +80,33 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		}
 	});
 
+	$(".btn-header_search").click(function(e) {
+		$(".menu-dropdown").slideUp(200);
+		$(".btn-catalog-wrap .btn-main").find(".sandwich").removeClass("active");
+		$(".btn-catalog-wrap .btn-main").removeClass("active");
+		e.preventDefault();
+		if ($(".form-search").is(":hidden")) {
+			$(".form-search").slideDown(200);
+			$(this).addClass("active");
+		} else {
+			$(".form-search").slideUp(200);
+			$(this).removeClass("active");
+		}
+	});
+
+	{
+		if ($(window).width() < 992) { 
+			$(document).mouseup(function (e) {
+				var container = $(".form-search");
+				if (container.has(e.target).length === 0){
+					$(".form-search").slideUp(200);
+					$(".btn-header_search").removeClass("active");
+				}
+			});
+		
+		}
+	}	
+
 	$(".btn-like").click(function(e) {
 		e.preventDefault();
 			$(this).toggleClass("active");
